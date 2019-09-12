@@ -10,8 +10,8 @@ class NotificationMailService {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'asdlvcom@gmail.com',
-        pass: 'zilnika20071985'
+        user: '', // Email address
+        pass: '' // Password
       }
     });
 
